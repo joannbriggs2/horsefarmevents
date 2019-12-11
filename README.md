@@ -8,7 +8,7 @@ https://github.com/joannbriggs2/horsefarmevents
 
 ## MVP
 
-##### New Technology: AWS, Sylizer, Edraw Max
+##### New Technology: AWS, Sylizer(?)
 
 ##### Two Models: Venues and Events
 
@@ -34,12 +34,12 @@ https://github.com/joannbriggs2/horsefarmevents
 
 ##### Database: Postgres
 
-##### CSS Editor: Stylizer
-
-##### Wireframe Design tool: Edraw Max
+##### CSS Editor: Stylizer(?)
 
 ## Wireframes
 
 ![](https://github.com/joannbriggs2/horsefarmevents/blob/master/Wireframe.png)
 
 ## ERD
+
+![](https://github.com/joannbriggs2/horsefarmevents/blob/master/Wireframe.ERD)
