@@ -1,31 +1,28 @@
 # horsefarmevents
 
-Displays a list of events through out the year by venue.
+Displays a list of events throughout the year by venue. Admin can maintain event information.
 
 ## MVP
 
-### New Technology: AWS
+New Technology: AWS
+Two Models: Venues and Events
+Full CRUD on Events Model
 
-### Two Models: Venues and Events
+## Stretch MVP
 
-### Full CRUD on Events Model
-
-## Stretch MVP - potential
-
-### Allow users to email venue for additional information
-
-### Include pdf attachments
-
-### Show additional information about the event
-
-### Full CRUD on additional models.
+Allow users to email venue for additional information
+Include pdf attachments
+Show additional information about the event
+Full CRUD on additional models.
 
 ## Technology
 
-### Front End: React
+Hosted: AWS
+Front End: React
+Back End: Rails
+Database: Postgres
+CSS Editor: Stylizer
 
-### Back End: Rails
+## Wireframes
 
-### Hosted: AWS
-
-### Database: Postgres
+## ERD
