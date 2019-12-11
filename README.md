@@ -1,6 +1,6 @@
 # horsefarmevents
 
-Displays a list of events throughout the year by venue. Admin can maintain event information.
+Displays a list of events throughout the year by venue. Admin can maintain event information. User clicks on the venue to see the events. Stretch would be for user to click on a specific event and the event details would display below it.
 
 ## Link to project folder
 
