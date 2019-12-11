@@ -2,9 +2,13 @@
 
 Displays a list of events throughout the year by venue. Admin can maintain event information.
 
+## Link to project folder
+
+https://github.com/joannbriggs2/horsefarmevents
+
 ## MVP
 
-##### New Technology: AWS, Sylizer
+##### New Technology: AWS, Sylizer, Edraw Max
 
 ##### Two Models: Venues and Events
 
@@ -32,6 +36,10 @@ Displays a list of events throughout the year by venue. Admin can maintain event
 
 ##### CSS Editor: Stylizer
 
+##### Wireframe Design tool: Edraw Max
+
 ## Wireframes
+
+see Wireframe.png
 
 ## ERD
