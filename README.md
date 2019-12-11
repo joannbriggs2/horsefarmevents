@@ -4,9 +4,9 @@ Displays a list of events throughout the year by venue. Admin can maintain event
 
 ## MVP
 
-#####New Technology: AWS, Sylizer
-#####Two Models: Venues and Events
-#####Full CRUD on Events Model
+####New Technology: AWS, Sylizer
+####Two Models: Venues and Events
+####Full CRUD on Events Model
 
 ## Stretch MVP
 
