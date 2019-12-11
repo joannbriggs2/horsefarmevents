@@ -12,10 +12,13 @@ Displays a list of events throughout the year by venue. Admin can maintain event
 
 ## Stretch MVP
 
-Allow users to email venue for additional information
-Include pdf attachments
-Show additional information about the event
-Full CRUD on additional models.
+##### Allow users to email venue for additional information
+
+##### Include pdf attachments
+
+##### Show additional information about the event
+
+##### Full CRUD on additional models.
 
 ## Technology
 
