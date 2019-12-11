@@ -19,11 +19,15 @@ Full CRUD on additional models.
 
 ## Technology
 
-Hosted: AWS
-Front End: React
-Back End: Rails
-Database: Postgres
-CSS Editor: Stylizer
+##### Hosted: AWS
+
+##### Front End: React
+
+##### Back End: Rails
+
+##### Database: Postgres
+
+##### CSS Editor: Stylizer
 
 ## Wireframes
 
