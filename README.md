@@ -42,4 +42,5 @@ https://github.com/joannbriggs2/horsefarmevents
 
 ## ERD
 
+refer to ERD.pdf in repository
 ![](https://github.com/joannbriggs2/horsefarmevents/blob/master/ERD.pdf)
