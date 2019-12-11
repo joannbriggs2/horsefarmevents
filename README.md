@@ -40,6 +40,6 @@ https://github.com/joannbriggs2/horsefarmevents
 
 ## Wireframes
 
-see Wireframe.png
+![](https://github.com/joannbriggs2/horsefarmevents/blob/master/Wireframe.png)
 
 ## ERD
