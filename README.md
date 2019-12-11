@@ -42,4 +42,4 @@ https://github.com/joannbriggs2/horsefarmevents
 
 ## ERD
 
-![](https://github.com/joannbriggs2/horsefarmevents/blob/master/Wireframe.ERD.pages)
+![](https://github.com/joannbriggs2/horsefarmevents/blob/master/Wireframe.ERD.pdf)
