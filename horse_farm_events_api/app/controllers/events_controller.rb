@@ -8,15 +8,15 @@ class EventsController < ApplicationController
       render json: @events
     end
   
-    # GET /temperatures/1
-    # def show
-    #   render json: @temperature
-    # end
+    # GET /events/1
+    def show
+      render json: @event
+    end
   
     # POST /events
     def create
       @event = Event.new(event_params)
-      @event.venue_id = params:[:venue_id]
+      @event.venue_id = params[:venue_id]
   # above line need to set the venue id
       if @event.save
         render json: @event, status: :created, venue: @event
@@ -34,7 +34,7 @@ class EventsController < ApplicationController
       end
     end
   
-    # DELETE /temperatures/1
+    # DELETE /events/1
     def destroy
       @event.destroy
     end
@@ -47,6 +47,6 @@ class EventsController < ApplicationController
   
       # Only allow a trusted parameter "white list" through.
       def event_params
-        params.require(:event).permit(:date, :time, :type)
+        params.require(:event).permit(:date, :time, :eventtype)
       end
   end
