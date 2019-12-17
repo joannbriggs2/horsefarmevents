@@ -40,7 +40,7 @@ main {
   background-color: var(--sandy);
 }
 
-aside {
+.events {
   grid-area: aside;
   margin-right: 0.5rem;
   background-color: var(--oasis-green);
@@ -99,8 +99,8 @@ body {
       auto; /* Footer */
   }
 
-  aside {
-    margin: 0;
+  .events {
+    margin: 50px;
   }
   nav {
     padding: 20px 20%;

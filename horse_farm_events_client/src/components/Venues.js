@@ -10,11 +10,9 @@ class Venues extends Component {
       venues: [],
       editButton: false
     };
-    this.handleAdd = this.handleAdd.bind(this);
+    // this.handleAdd = this.handleAdd.bind(this);
     this.getEvent = this.getEvent.bind(this);
     this.getVenues = this.getVenues.bind(this);
-
-    // this.handleShow = this.handleShow.bind(this);
   }
 
   componentDidMount() {
@@ -28,43 +26,25 @@ class Venues extends Component {
     });
   }
 
-  async handleAdd(event, formInputs) {
-    event.preventDefault();
-    await axios.post("/venues", formInputs);
-    this.getVenues();
-  }
+  //   async handleAdd(event, formInputs) {
+  //     event.preventDefault();
+  //     await axios.post("/venues", formInputs);
+  //     this.getVenues();
+  //   }
 
   async getEvent(venue) {
     this.setState({ venue: venue });
   }
 
-  //   async handleShowButton(id) {
-  //     try {
-  //       const url = `http://localhost:3000/venues/${id}`;
-  //       // console.log("In delete url", url);
-  //       await axios.put(url);
-  //     } catch (err) {
-  //       console.log("Show Error: ", err);
-  //     }
-  //     this.getModel();
-  //   }
-
   render() {
-    // const showEditForm = this.state.editButton ? (
-    //   <Handleevent handleSubmit={this.handleAdd} />
-    // ) : (
-    //   console.log("on mouse over", this.state.venueToShow)
-    //   //   (<Events thisVenue={this.state.venueToShow} />))
-    // );
-
     return (
       <>
         <h1>Venues</h1>
         <table>
-          <tbody>
+          <tbody className="venues">
             {this.state.venues.map(venue => {
               return (
-                <tr onMouseOver={() => this.getEvent(venue)} key={venue.id}>
+                <tr onClick={() => this.getEvent(venue)} key={venue.id}>
                   <td>{venue.name} </td>
                   <td>{venue.address} </td>
                   <td>{venue.contact} </td>
@@ -80,8 +60,6 @@ class Venues extends Component {
                     </a>
                   </td>
                 </tr>
-                /* <Events venue={venue} /> */
-                /* <Events thisVenue={venue} /> */
               );
             })}
           </tbody>
